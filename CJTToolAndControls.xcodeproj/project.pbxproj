@@ -14,6 +14,23 @@
 		132A4A0A206394260061A65D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132A4A08206394260061A65D /* LaunchScreen.storyboard */; };
 		132A4A0D206394260061A65D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A0C206394260061A65D /* main.m */; };
 		132A4A17206394260061A65D /* CJTToolAndControlsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A16206394260061A65D /* CJTToolAndControlsTests.m */; };
+		132A4A2F206394490061A65D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A22206394480061A65D /* UIView+Extension.m */; };
+		132A4A30206394490061A65D /* UITextField+leftIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A25206394480061A65D /* UITextField+leftIcon.m */; };
+		132A4A31206394490061A65D /* UITextField+Password.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A26206394480061A65D /* UITextField+Password.m */; };
+		132A4A322063944A0061A65D /* UITextField+BottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A28206394490061A65D /* UITextField+BottomLine.m */; };
+		132A4A332063944A0061A65D /* UIWebView+JavaScriptAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A2A206394490061A65D /* UIWebView+JavaScriptAlert.m */; };
+		132A4A342063944A0061A65D /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A2B206394490061A65D /* NSString+Check.m */; };
+		132A4A352063944A0061A65D /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A2D206394490061A65D /* UIColor+Extension.m */; };
+		132A4A38206394D80061A65D /* checkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A37206394D80061A65D /* checkTests.m */; };
+		132A4A3C206399100061A65D /* toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A3B206399100061A65D /* toast.m */; };
+		132A4A4B20639B0A0061A65D /* EmergencyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A4320639B080061A65D /* EmergencyObject.m */; };
+		132A4A4C20639B0A0061A65D /* EmergencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A4420639B090061A65D /* EmergencyViewController.m */; };
+		132A4A4D20639B0A0061A65D /* UIViewController+Emergency.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A4520639B090061A65D /* UIViewController+Emergency.m */; };
+		132A4A4E20639B0A0061A65D /* UINavigationController+Emergency.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A4620639B090061A65D /* UINavigationController+Emergency.m */; };
+		132A4A552063A1D50061A65D /* CJTNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A522063A1D50061A65D /* CJTNumberKeyboard.m */; };
+		132A4A562063A1D50061A65D /* CJTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A542063A1D50061A65D /* CJTTextField.m */; };
+		132A4A592063A3020061A65D /* TestEmergencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A582063A3020061A65D /* TestEmergencyViewController.m */; };
+		132A4A5B2063A77F0061A65D /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 132A4A5A2063A77F0061A65D /* default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +57,38 @@
 		132A4A12206394260061A65D /* CJTToolAndControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJTToolAndControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		132A4A16206394260061A65D /* CJTToolAndControlsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJTToolAndControlsTests.m; sourceTree = "<group>"; };
 		132A4A18206394260061A65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132A4A21206394480061A65D /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		132A4A22206394480061A65D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		132A4A23206394480061A65D /* UITextField+Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Password.h"; sourceTree = "<group>"; };
+		132A4A24206394480061A65D /* UIWebView+JavaScriptAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+JavaScriptAlert.h"; sourceTree = "<group>"; };
+		132A4A25206394480061A65D /* UITextField+leftIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+leftIcon.m"; sourceTree = "<group>"; };
+		132A4A26206394480061A65D /* UITextField+Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Password.m"; sourceTree = "<group>"; };
+		132A4A27206394490061A65D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		132A4A28206394490061A65D /* UITextField+BottomLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BottomLine.m"; sourceTree = "<group>"; };
+		132A4A29206394490061A65D /* UITextField+BottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BottomLine.h"; sourceTree = "<group>"; };
+		132A4A2A206394490061A65D /* UIWebView+JavaScriptAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+JavaScriptAlert.m"; sourceTree = "<group>"; };
+		132A4A2B206394490061A65D /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
+		132A4A2C206394490061A65D /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
+		132A4A2D206394490061A65D /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		132A4A2E206394490061A65D /* UITextField+leftIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+leftIcon.h"; sourceTree = "<group>"; };
+		132A4A37206394D80061A65D /* checkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = checkTests.m; sourceTree = "<group>"; };
+		132A4A3A206399100061A65D /* toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toast.h; sourceTree = "<group>"; };
+		132A4A3B206399100061A65D /* toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = toast.m; sourceTree = "<group>"; };
+		132A4A4320639B080061A65D /* EmergencyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyObject.m; sourceTree = "<group>"; };
+		132A4A4420639B090061A65D /* EmergencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyViewController.m; sourceTree = "<group>"; };
+		132A4A4520639B090061A65D /* UIViewController+Emergency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Emergency.m"; sourceTree = "<group>"; };
+		132A4A4620639B090061A65D /* UINavigationController+Emergency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Emergency.m"; sourceTree = "<group>"; };
+		132A4A4720639B090061A65D /* EmergencyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyObject.h; sourceTree = "<group>"; };
+		132A4A4820639B090061A65D /* EmergencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyViewController.h; sourceTree = "<group>"; };
+		132A4A4920639B090061A65D /* UINavigationController+Emergency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Emergency.h"; sourceTree = "<group>"; };
+		132A4A4A20639B090061A65D /* UIViewController+Emergency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Emergency.h"; sourceTree = "<group>"; };
+		132A4A512063A1D50061A65D /* CJTNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTNumberKeyboard.h; sourceTree = "<group>"; };
+		132A4A522063A1D50061A65D /* CJTNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTNumberKeyboard.m; sourceTree = "<group>"; };
+		132A4A532063A1D50061A65D /* CJTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTTextField.h; sourceTree = "<group>"; };
+		132A4A542063A1D50061A65D /* CJTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTTextField.m; sourceTree = "<group>"; };
+		132A4A572063A3020061A65D /* TestEmergencyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestEmergencyViewController.h; sourceTree = "<group>"; };
+		132A4A582063A3020061A65D /* TestEmergencyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEmergencyViewController.m; sourceTree = "<group>"; };
+		132A4A5A2063A77F0061A65D /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +134,11 @@
 				132A49FE206394260061A65D /* AppDelegate.m */,
 				132A4A00206394260061A65D /* ViewController.h */,
 				132A4A01206394260061A65D /* ViewController.m */,
+				132A4A572063A3020061A65D /* TestEmergencyViewController.h */,
+				132A4A582063A3020061A65D /* TestEmergencyViewController.m */,
+				132A4A5A2063A77F0061A65D /* default.png */,
+				132A4A39206399060061A65D /* tools */,
+				132A4A36206394520061A65D /* category */,
 				132A4A03206394260061A65D /* Main.storyboard */,
 				132A4A06206394260061A65D /* Assets.xcassets */,
 				132A4A08206394260061A65D /* LaunchScreen.storyboard */,
@@ -98,9 +152,116 @@
 			isa = PBXGroup;
 			children = (
 				132A4A16206394260061A65D /* CJTToolAndControlsTests.m */,
+				132A4A37206394D80061A65D /* checkTests.m */,
 				132A4A18206394260061A65D /* Info.plist */,
 			);
 			path = CJTToolAndControlsTests;
+			sourceTree = "<group>";
+		};
+		132A4A36206394520061A65D /* category */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A42206399630061A65D /* NSStringCategory */,
+				132A4A412063995A0061A65D /* UIColorCategory */,
+				132A4A3E206399220061A65D /* UITextFieldCategory */,
+				132A4A3F206399420061A65D /* UIViewCategory */,
+				132A4A402063994F0061A65D /* UIWebViewCategory */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		132A4A39206399060061A65D /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A502063A1D50061A65D /* CJTTextField */,
+				132A4A4F20639B160061A65D /* emergency */,
+				132A4A3D206399170061A65D /* toast */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		132A4A3D206399170061A65D /* toast */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A3A206399100061A65D /* toast.h */,
+				132A4A3B206399100061A65D /* toast.m */,
+			);
+			path = toast;
+			sourceTree = "<group>";
+		};
+		132A4A3E206399220061A65D /* UITextFieldCategory */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A29206394490061A65D /* UITextField+BottomLine.h */,
+				132A4A28206394490061A65D /* UITextField+BottomLine.m */,
+				132A4A2E206394490061A65D /* UITextField+leftIcon.h */,
+				132A4A25206394480061A65D /* UITextField+leftIcon.m */,
+				132A4A23206394480061A65D /* UITextField+Password.h */,
+				132A4A26206394480061A65D /* UITextField+Password.m */,
+			);
+			path = UITextFieldCategory;
+			sourceTree = "<group>";
+		};
+		132A4A3F206399420061A65D /* UIViewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A27206394490061A65D /* UIView+Extension.h */,
+				132A4A22206394480061A65D /* UIView+Extension.m */,
+			);
+			path = UIViewCategory;
+			sourceTree = "<group>";
+		};
+		132A4A402063994F0061A65D /* UIWebViewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A24206394480061A65D /* UIWebView+JavaScriptAlert.h */,
+				132A4A2A206394490061A65D /* UIWebView+JavaScriptAlert.m */,
+			);
+			path = UIWebViewCategory;
+			sourceTree = "<group>";
+		};
+		132A4A412063995A0061A65D /* UIColorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A21206394480061A65D /* UIColor+Extension.h */,
+				132A4A2D206394490061A65D /* UIColor+Extension.m */,
+			);
+			path = UIColorCategory;
+			sourceTree = "<group>";
+		};
+		132A4A42206399630061A65D /* NSStringCategory */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A2C206394490061A65D /* NSString+Check.h */,
+				132A4A2B206394490061A65D /* NSString+Check.m */,
+			);
+			path = NSStringCategory;
+			sourceTree = "<group>";
+		};
+		132A4A4F20639B160061A65D /* emergency */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A4720639B090061A65D /* EmergencyObject.h */,
+				132A4A4320639B080061A65D /* EmergencyObject.m */,
+				132A4A4820639B090061A65D /* EmergencyViewController.h */,
+				132A4A4420639B090061A65D /* EmergencyViewController.m */,
+				132A4A4920639B090061A65D /* UINavigationController+Emergency.h */,
+				132A4A4620639B090061A65D /* UINavigationController+Emergency.m */,
+				132A4A4A20639B090061A65D /* UIViewController+Emergency.h */,
+				132A4A4520639B090061A65D /* UIViewController+Emergency.m */,
+			);
+			path = emergency;
+			sourceTree = "<group>";
+		};
+		132A4A502063A1D50061A65D /* CJTTextField */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A512063A1D50061A65D /* CJTNumberKeyboard.h */,
+				132A4A522063A1D50061A65D /* CJTNumberKeyboard.m */,
+				132A4A532063A1D50061A65D /* CJTTextField.h */,
+				132A4A542063A1D50061A65D /* CJTTextField.m */,
+			);
+			path = CJTTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +349,7 @@
 				132A4A0A206394260061A65D /* LaunchScreen.storyboard in Resources */,
 				132A4A07206394260061A65D /* Assets.xcassets in Resources */,
 				132A4A05206394260061A65D /* Main.storyboard in Resources */,
+				132A4A5B2063A77F0061A65D /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,9 +367,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132A4A562063A1D50061A65D /* CJTTextField.m in Sources */,
+				132A4A4D20639B0A0061A65D /* UIViewController+Emergency.m in Sources */,
+				132A4A4E20639B0A0061A65D /* UINavigationController+Emergency.m in Sources */,
+				132A4A30206394490061A65D /* UITextField+leftIcon.m in Sources */,
 				132A4A02206394260061A65D /* ViewController.m in Sources */,
+				132A4A31206394490061A65D /* UITextField+Password.m in Sources */,
 				132A4A0D206394260061A65D /* main.m in Sources */,
+				132A4A2F206394490061A65D /* UIView+Extension.m in Sources */,
+				132A4A322063944A0061A65D /* UITextField+BottomLine.m in Sources */,
+				132A4A342063944A0061A65D /* NSString+Check.m in Sources */,
+				132A4A592063A3020061A65D /* TestEmergencyViewController.m in Sources */,
+				132A4A552063A1D50061A65D /* CJTNumberKeyboard.m in Sources */,
+				132A4A3C206399100061A65D /* toast.m in Sources */,
+				132A4A352063944A0061A65D /* UIColor+Extension.m in Sources */,
 				132A49FF206394260061A65D /* AppDelegate.m in Sources */,
+				132A4A4B20639B0A0061A65D /* EmergencyObject.m in Sources */,
+				132A4A4C20639B0A0061A65D /* EmergencyViewController.m in Sources */,
+				132A4A332063944A0061A65D /* UIWebView+JavaScriptAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132A4A38206394D80061A65D /* checkTests.m in Sources */,
 				132A4A17206394260061A65D /* CJTToolAndControlsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
