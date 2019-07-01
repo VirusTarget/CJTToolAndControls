@@ -32,6 +32,17 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    if (self.navigationController.viewControllers[0] == self) {
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStyleDone target:self action:@selector(back)];
+    }
+}
+
+- (void)back {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     if (self.url) {
@@ -40,7 +51,6 @@
     if (self.image) {
         [self loadPic];
     }
-    // Do any additional setup after loading the view.
 }
 
 - (void)loadUrl {

@@ -50,6 +50,7 @@
     if (self.type == CJTNumberKeyboardDouble && [self.text containsString:@"."] && [string containsString:@"."]) {
         canEditor = NO;
     }
+    
     if (canEditor) {
         [self replaceRange:self.selectedTextRange withText:string];
     }
@@ -63,6 +64,10 @@
     if (canEditor) {
         [self deleteBackward];
     }
+}
+
+- (void)textFieldShouldDone:(CJTNumberKeyboard *)numberKeyboard {
+    [self resignFirstResponder];
 }
 
 #pragma mark- getter/setter

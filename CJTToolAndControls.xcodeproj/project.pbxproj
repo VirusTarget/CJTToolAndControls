@@ -31,6 +31,16 @@
 		132A4A562063A1D50061A65D /* CJTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A542063A1D50061A65D /* CJTTextField.m */; };
 		132A4A592063A3020061A65D /* TestEmergencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A4A582063A3020061A65D /* TestEmergencyViewController.m */; };
 		132A4A5B2063A77F0061A65D /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 132A4A5A2063A77F0061A65D /* default.png */; };
+		136981972068CDC7001BC5F4 /* TestEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136981962068CDC7001BC5F4 /* TestEventViewController.m */; };
+		1369819B2068CFF1001BC5F4 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136981992068CFF1001BC5F4 /* EventKit.framework */; };
+		1369819C2068CFF1001BC5F4 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1369819A2068CFF1001BC5F4 /* EventKitUI.framework */; };
+		1380BE2F206529700047D91D /* testToastTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1380BE2E206529700047D91D /* testToastTableViewController.m */; };
+		1380BE32206531890047D91D /* TestColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1380BE31206531890047D91D /* TestColorViewController.m */; };
+		1380BE35206534280047D91D /* TestKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1380BE34206534280047D91D /* TestKeyboardViewController.m */; };
+		1380BE3C20653CF70047D91D /* CJTLunarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1380BE3820653CF70047D91D /* CJTLunarPicker.m */; };
+		1380BE3D20653CF70047D91D /* lunarcalenda.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1380BE3920653CF70047D91D /* lunarcalenda.plist */; };
+		1380BE3E20653CF70047D91D /* solarOrLunar.c in Sources */ = {isa = PBXBuildFile; fileRef = 1380BE3A20653CF70047D91D /* solarOrLunar.c */; };
+		1380BE4220653E7D0047D91D /* TestLunarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1380BE4120653E7D0047D91D /* TestLunarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +99,23 @@
 		132A4A572063A3020061A65D /* TestEmergencyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestEmergencyViewController.h; sourceTree = "<group>"; };
 		132A4A582063A3020061A65D /* TestEmergencyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEmergencyViewController.m; sourceTree = "<group>"; };
 		132A4A5A2063A77F0061A65D /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		136981952068CDC7001BC5F4 /* TestEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestEventViewController.h; sourceTree = "<group>"; };
+		136981962068CDC7001BC5F4 /* TestEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEventViewController.m; sourceTree = "<group>"; };
+		136981992068CFF1001BC5F4 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		1369819A2068CFF1001BC5F4 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		1380BE2D206529700047D91D /* testToastTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testToastTableViewController.h; sourceTree = "<group>"; };
+		1380BE2E206529700047D91D /* testToastTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testToastTableViewController.m; sourceTree = "<group>"; };
+		1380BE30206531890047D91D /* TestColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestColorViewController.h; sourceTree = "<group>"; };
+		1380BE31206531890047D91D /* TestColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestColorViewController.m; sourceTree = "<group>"; };
+		1380BE33206534280047D91D /* TestKeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestKeyboardViewController.h; sourceTree = "<group>"; };
+		1380BE34206534280047D91D /* TestKeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestKeyboardViewController.m; sourceTree = "<group>"; };
+		1380BE3720653CF70047D91D /* CJTLunarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTLunarPicker.h; sourceTree = "<group>"; };
+		1380BE3820653CF70047D91D /* CJTLunarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTLunarPicker.m; sourceTree = "<group>"; };
+		1380BE3920653CF70047D91D /* lunarcalenda.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lunarcalenda.plist; sourceTree = "<group>"; };
+		1380BE3A20653CF70047D91D /* solarOrLunar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = solarOrLunar.c; sourceTree = "<group>"; };
+		1380BE3B20653CF70047D91D /* solarOrLunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solarOrLunar.h; sourceTree = "<group>"; };
+		1380BE4020653E7D0047D91D /* TestLunarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLunarViewController.h; sourceTree = "<group>"; };
+		1380BE4120653E7D0047D91D /* TestLunarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLunarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1369819B2068CFF1001BC5F4 /* EventKit.framework in Frameworks */,
+				1369819C2068CFF1001BC5F4 /* EventKitUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +144,7 @@
 				132A49FC206394260061A65D /* CJTToolAndControls */,
 				132A4A15206394260061A65D /* CJTToolAndControlsTests */,
 				132A49FB206394260061A65D /* Products */,
+				136981982068CFF0001BC5F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +164,7 @@
 				132A49FE206394260061A65D /* AppDelegate.m */,
 				132A4A00206394260061A65D /* ViewController.h */,
 				132A4A01206394260061A65D /* ViewController.m */,
-				132A4A572063A3020061A65D /* TestEmergencyViewController.h */,
-				132A4A582063A3020061A65D /* TestEmergencyViewController.m */,
-				132A4A5A2063A77F0061A65D /* default.png */,
+				1380BE3F20653D020047D91D /* testController */,
 				132A4A39206399060061A65D /* tools */,
 				132A4A36206394520061A65D /* category */,
 				132A4A03206394260061A65D /* Main.storyboard */,
@@ -173,6 +201,7 @@
 		132A4A39206399060061A65D /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				1380BE3620653CF70047D91D /* CJTLunarPicker */,
 				132A4A502063A1D50061A65D /* CJTTextField */,
 				132A4A4F20639B160061A65D /* emergency */,
 				132A4A3D206399170061A65D /* toast */,
@@ -264,6 +293,47 @@
 			path = CJTTextField;
 			sourceTree = "<group>";
 		};
+		136981982068CFF0001BC5F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				136981992068CFF1001BC5F4 /* EventKit.framework */,
+				1369819A2068CFF1001BC5F4 /* EventKitUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1380BE3620653CF70047D91D /* CJTLunarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1380BE3720653CF70047D91D /* CJTLunarPicker.h */,
+				1380BE3820653CF70047D91D /* CJTLunarPicker.m */,
+				1380BE3920653CF70047D91D /* lunarcalenda.plist */,
+				1380BE3A20653CF70047D91D /* solarOrLunar.c */,
+				1380BE3B20653CF70047D91D /* solarOrLunar.h */,
+			);
+			path = CJTLunarPicker;
+			sourceTree = "<group>";
+		};
+		1380BE3F20653D020047D91D /* testController */ = {
+			isa = PBXGroup;
+			children = (
+				132A4A5A2063A77F0061A65D /* default.png */,
+				132A4A572063A3020061A65D /* TestEmergencyViewController.h */,
+				132A4A582063A3020061A65D /* TestEmergencyViewController.m */,
+				1380BE2D206529700047D91D /* testToastTableViewController.h */,
+				1380BE2E206529700047D91D /* testToastTableViewController.m */,
+				1380BE30206531890047D91D /* TestColorViewController.h */,
+				1380BE31206531890047D91D /* TestColorViewController.m */,
+				1380BE33206534280047D91D /* TestKeyboardViewController.h */,
+				1380BE34206534280047D91D /* TestKeyboardViewController.m */,
+				1380BE4020653E7D0047D91D /* TestLunarViewController.h */,
+				1380BE4120653E7D0047D91D /* TestLunarViewController.m */,
+				136981952068CDC7001BC5F4 /* TestEventViewController.h */,
+				136981962068CDC7001BC5F4 /* TestEventViewController.m */,
+			);
+			path = testController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,6 +419,7 @@
 				132A4A0A206394260061A65D /* LaunchScreen.storyboard in Resources */,
 				132A4A07206394260061A65D /* Assets.xcassets in Resources */,
 				132A4A05206394260061A65D /* Main.storyboard in Resources */,
+				1380BE3D20653CF70047D91D /* lunarcalenda.plist in Resources */,
 				132A4A5B2063A77F0061A65D /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,14 +443,21 @@
 				132A4A4E20639B0A0061A65D /* UINavigationController+Emergency.m in Sources */,
 				132A4A30206394490061A65D /* UITextField+leftIcon.m in Sources */,
 				132A4A02206394260061A65D /* ViewController.m in Sources */,
+				1380BE4220653E7D0047D91D /* TestLunarViewController.m in Sources */,
+				1380BE35206534280047D91D /* TestKeyboardViewController.m in Sources */,
 				132A4A31206394490061A65D /* UITextField+Password.m in Sources */,
 				132A4A0D206394260061A65D /* main.m in Sources */,
+				1380BE2F206529700047D91D /* testToastTableViewController.m in Sources */,
+				1380BE3E20653CF70047D91D /* solarOrLunar.c in Sources */,
 				132A4A2F206394490061A65D /* UIView+Extension.m in Sources */,
 				132A4A322063944A0061A65D /* UITextField+BottomLine.m in Sources */,
+				136981972068CDC7001BC5F4 /* TestEventViewController.m in Sources */,
 				132A4A342063944A0061A65D /* NSString+Check.m in Sources */,
 				132A4A592063A3020061A65D /* TestEmergencyViewController.m in Sources */,
 				132A4A552063A1D50061A65D /* CJTNumberKeyboard.m in Sources */,
+				1380BE3C20653CF70047D91D /* CJTLunarPicker.m in Sources */,
 				132A4A3C206399100061A65D /* toast.m in Sources */,
+				1380BE32206531890047D91D /* TestColorViewController.m in Sources */,
 				132A4A352063944A0061A65D /* UIColor+Extension.m in Sources */,
 				132A49FF206394260061A65D /* AppDelegate.m in Sources */,
 				132A4A4B20639B0A0061A65D /* EmergencyObject.m in Sources */,

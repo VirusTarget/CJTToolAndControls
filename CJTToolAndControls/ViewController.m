@@ -9,7 +9,12 @@
 #import "ViewController.h"
 
 #import "TestEmergencyViewController.h"
+#import "testToastTableViewController.h"
+#import "TestColorViewController.h"
+#import "TestKeyboardViewController.h"
+#import "TestEventViewController.h"
 
+#import "toast.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -21,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.itemArray = @[@"紧急处理",@"toast提示",@"字符串检查",@"颜色生成",@"特殊键盘",@"农历选择器"];
+    self.itemArray = @[@"紧急处理",@"toast提示",@"字符串检查",@"颜色生成",@"特殊键盘",@"农历选择器",@"日历"];
     
     [self.view addSubview:self.tableView];
     
@@ -44,10 +49,33 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     switch (indexPath.row) {
-        case 0:{
+        case 0: {
             TestEmergencyViewController *controller = [TestEmergencyViewController new];
             [self.navigationController pushViewController:controller animated:YES];
             break;
+        }
+        case 1: {
+            testToastTableViewController *controller = [testToastTableViewController new];
+            [self.navigationController pushViewController:controller animated:YES];
+            break;
+        }
+        case 2: {
+            [toast toastString:@"通过unitTests验证"];
+            break;
+        }
+        case 3: {
+            TestColorViewController *controller = [TestColorViewController new];
+            [self.navigationController pushViewController:controller animated:YES];
+            break;
+        }
+        case 4: {
+            TestKeyboardViewController *controller = [TestKeyboardViewController new];
+            [self.navigationController pushViewController:controller animated:YES];
+            
+        }
+        case 6: {
+            TestEventViewController *controller = [TestEventViewController new];
+            [self.navigationController pushViewController:controller animated:YES];
         }
         default:
             break;

@@ -32,6 +32,8 @@
         else if ([[EmergencyObject shareInstance].picDict.allKeys containsObject:className]) {
             viewController = [[EmergencyViewController alloc] initWithPic:[EmergencyObject shareInstance].picDict[className]];
         }
+        
+        viewController = [[UINavigationController alloc] initWithRootViewController:viewController];
     }
     [self emergencyPresentViewController:viewController animated:flag completion:completion];
 }

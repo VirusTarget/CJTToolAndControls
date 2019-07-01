@@ -18,6 +18,10 @@ typedef NS_ENUM(NSUInteger, CJTKeyboardType) {
     CJTNumberKeyboardID,
     /// 系统键盘
     SYSTEMKeyboard,
+    /// 车牌省份简称
+    CJTLicenceKeyboard,
+    /// 车牌号
+    CJTCarCardKeyboard,
 };
 
 @protocol CJTNumberKeyBoardDelegate <NSObject>
@@ -26,6 +30,8 @@ typedef NS_ENUM(NSUInteger, CJTKeyboardType) {
 - (void)textFieldShouldDelete:(CJTNumberKeyboard *)numberKeyboard;
 /** 点击键盘输入相应数字及特殊字符 */
 - (void)numberKeyboard:(CJTNumberKeyboard *)numberKeyboard replacementString:(NSString *)string;
+/** 点击确定按钮 */
+- (void)textFieldShouldDone:(CJTNumberKeyboard *)numberKeyboard;
 
 @end
 
